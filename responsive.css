@@ -1,0 +1,1536 @@
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	.content--produk .vd-content>img, .pop--slide >img{
+		max-width: 70%;
+		display: flex;
+		margin: auto;
+	}
+	.prodPopup{
+		bottom: -50px;
+	}
+	.wrap--tabs, .wrap--navTab{
+		min-height: auto;
+	}
+	.anggota--desc>p{
+	    margin: 15px 0;
+	}
+	.thumb{
+		width: 30px;
+	}
+	.getInForm {
+    	margin-bottom: 1rem;
+	}
+	.getInForm .error{
+		margin-bottom: 0;
+		font-size: 7px;
+	}
+	.dropContent{
+		padding: 25px 30px;
+	}
+	.box--red .btn-trans, .dropContent .btn-trans{
+		margin-bottom: 0;
+	}
+	.inner--contentForm button.yel{
+		font-size: 14px;
+	}
+	.btn-trans:before, .inner--contentForm button.yel:before{
+		top: 10px;
+	}
+	#formPopup .btn-trans:before, #formPopup button.yel:before{
+		top: 14px;
+	}
+	.box--red{
+		padding: 35px;
+		padding: 25px 30px;
+	}
+	.dropContent > h2{
+		margin-bottom: 10px;
+	}
+	.mainmenu a, .lang a{
+	    font-size: 12px;
+	}
+	.topFlex{
+		margin-bottom: 20px;
+	}
+	.he350 {
+    	max-height: 300px;
+    	height: 300px;
+	}
+	.he160 {
+    	max-height: 135px;
+	}
+	.wrapper > button{
+	    font-size: 0.95vw;
+	}
+	.getInForm label{
+		font-size: 0.65vw;
+	}
+	.nav--{
+		margin-top: 20px;
+	}
+	.slide--contentSejarah .vdbox{
+		max-height: 280px;
+	}
+	.vertical-bottle{
+		right: 2px;
+	}
+	.cstmTop {
+	    right: 22px;
+    	top: 30%;
+	}
+	.cstmBot{
+		right: 22px;
+		bottom: 30%;
+	}
+	input[type=email], input[type=number], input[type=password], input[type=text], textarea, textarea.form-control,
+	input::placeholder, input:focus{
+		height: 35px;
+		font-size: 11px;
+		padding: 0;
+		 font-family: 'Roboto', sans-serif;
+	}
+	.getInForm input::placeholder, 
+	.getInForm textarea::placeholder{
+		color: #fff;
+		font-size: 11px;
+		background: transparent;
+		font-family: 'Roboto', sans-serif;
+	}
+	.wrap--navTab .tabs li{
+	    font-size: 11px;
+	}
+	.desc--prod{
+		font-size: 14px;
+	}
+	.content-details{
+		font-size: 12px;
+	}
+	#formPopup .formSub span,
+	#formPopup .formSub label{
+	  font-weight: 800;
+	  font-size: 12px;
+	  color: #333;
+	}
+	.bottle--nav img{
+		max-width: 60%;
+	}
+	.img--latest{
+		height: 200px;
+		overflow: hidden;
+	}
+	.meta-title{
+		font-size: 18px;
+	}
+	.meta-date{
+		font-size: 10px;
+	}
+	.inner--contentForm label{
+		margin: 0;
+	}
+	.inner--contentForm p{
+	    font-size: 11px;
+    	margin-bottom: 10px;
+	}
+	.socmed a{
+		font-size: 12px;
+	}
+	.flex-nav-next a button, .flex-nav-prev a button{
+		font-size: 30px;
+	}
+	.logoCont{
+		max-width: 70%;
+	}
+	.contentLogo{
+		left: 30%;
+	}
+	#menu li>a:before{
+		top: 14px;
+	}
+	.blocking{
+		max-width: 70%;
+	}
+	.screenLogo {
+    	max-width: 20%;
+	}
+	.screenLogo img{
+		width: 100%;
+	}
+	.screenTitle h1{
+		font-size: 25px;
+	}
+	.screenContent {
+	    padding: 30px;
+	}
+	.screenForm {
+    	margin: 20px 0;
+	}
+	.screenTop>h1 {
+	    font-size: 22px;
+	}
+	.ortu img{
+		max-width: 18%;
+	}
+	.screenDesc p{
+		font-size: 12px;
+	}
+	.screenBot, .screenTop{
+		margin: 15px 0;
+	}
+	.screenContent:before{
+		top: 40px;
+	}
+	.screenContent:after{
+		bottom: 40px;
+	}
+	.search--field{
+		bottom: 26px;
+	}
+	.titleContent p, .inside--text p, .sejarah--content p{
+		font-size: 13px;
+	}
+
+}
+
+/*==========================================================================================================================================*/
+@media screen and (max-width: 1024px) {	
+
+}
+
+@media only screen and (max-device-width: 1024px) 
+and (max-device-height: 1366px) and (orientation : portrait){
+	.lang a, .mainmenu a{
+		font-size: 12px;
+	}
+	#desktop .container-fluid{
+		padding: 0 15px;
+	}
+	.slider-img video{
+		left: 11%!important;
+	}
+	.contentLogo{
+		left: 50%;
+	}
+	.slides li.flex-active-slide:before {
+	    position: absolute;
+	    content: '';
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0,.5);
+    	z-index: 20;
+	}
+	#btn-dsk.btnCont{
+	    font-size: 16px;
+	}
+	.wrapper>button{
+		width: 22%;
+	}
+	#aboutUs-FJ .row, #aboutUs-FJ .topFlex, #selayang .row {
+		padding: 0 50px;
+	}
+	#aboutUs-FJ .wd100>.row{
+		padding: 0;
+	}
+	.w30 {
+    	width: 25%;
+	}
+	.formContact{
+		width: 40%;
+	}
+	.dropContent>h2{
+		font-size: 20px;
+	}
+	.getInForm label, .btn-trans, .inner--contentForm button.yel{
+		font-size: 14px;
+	}
+	#contact .getInForm input[type=text], #contact .getInForm input[type=text]::placeholder, 
+	#contact .getInForm textarea[type=text], #contact .getInForm textarea[type=text]::placeholder, #contact .getInForm select{
+		font-size: 11px;
+		color: #2b0504;
+	}
+	#event-FJ .wrap--tabs, #keanggotaan-FJ .row.max500, #warisan--ot .wrap--tabs, #allEvent{
+	    padding: 0 50px;
+	}
+	#anggota .getInForm input[type=text], 
+	#anggota .getInForm input[type=text]::placeholder, 
+	#anggota .getInForm textarea[type=text], 
+	#anggota .getInForm textarea[type=text]::placeholder, 
+	#anggota .getInForm select{
+		font-size: 11px;
+	}
+	.mainmenu .dropdown-content{
+		width: 20vw;
+	}
+	#events, #faq{
+		background-size: cover;
+	}
+	.onRight {
+    	bottom: 15px;
+    	position: fixed;
+	}
+
+}
+
+@media only screen and (max-device-width: 1024px) 
+and (max-device-height: 768px) and (orientation : landscape){
+		.lang a, .mainmenu a{
+		font-size: 12px;
+	}
+	#desktop .container-fluid{
+		padding: 0 15px;
+	}
+	.slider-img video{
+	    left: 34%!important;
+	}
+	.contentLogo{
+		left: 50%;
+	}
+	.slides li.flex-active-slide:before {
+	    position: absolute;
+	    content: '';
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0,.5);
+    	z-index: 20;
+	}
+	#btn-dsk.btnCont{
+	    font-size: 16px;
+	}
+	.wrapper>button{
+		width: 22%;
+	}
+	#aboutUs-FJ .row, #aboutUs-FJ .topFlex, #selayang .row {
+		padding: 0 50px;
+	}
+	#aboutUs-FJ .wd100>.row{
+		padding: 0;
+	}
+	.w30 {
+    	width: 25%;
+	}
+	.formContact{
+		width: 40%;
+	}
+	.dropContent>h2{
+		font-size: 20px;
+	}
+	.getInForm label, .btn-trans, .inner--contentForm button.yel{
+		font-size: 14px;
+	}
+	#contact .getInForm input[type=text], #contact .getInForm input[type=text]::placeholder, 
+	#contact .getInForm textarea[type=text], #contact .getInForm textarea[type=text]::placeholder, #contact .getInForm select{
+		font-size: 11px;
+		color: #2b0504;
+	}
+	#event-FJ .wrap--tabs, #keanggotaan-FJ .row.max500, #warisan--ot .wrap--tabs, #allEvent{
+	    padding: 0 50px;
+	}
+	#anggota .getInForm input[type=text], 
+	#anggota .getInForm input[type=text]::placeholder, 
+	#anggota .getInForm textarea[type=text], 
+	#anggota .getInForm textarea[type=text]::placeholder, 
+	#anggota .getInForm select{
+		font-size: 11px;
+	}
+	.mainmenu .dropdown-content{
+		width: 20vw;
+	}
+	#events, #faq{
+		background-size: cover;
+	}
+	.onRight {
+    	bottom: 15px;
+    	position: fixed;
+	}
+	.cstmTop {
+    	top: 33%;
+	}
+	.cstmBot{
+		bottom: 33%;
+	}
+
+}
+
+@media screen and (max-width: 812px) {
+
+}
+
+@media screen and (max-device-width: 768px) {
+	.container-fluid{
+		padding: 0 15px;
+	}
+	#desktop, #btn-dsk{
+		display: none;
+	}
+	#hamburger, #mobile, #btn-mbl{
+		display: block;
+	}
+	.wd100{
+  		width: 100%;
+	}
+	.slider-img video{
+		left: 10%!important;
+	}
+	.slides li.flex-active-slide:before{
+		position: absolute;
+		content: '';
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		z-index: 20;
+	}
+	.flex-nav-next a button, .flex-nav-prev a button{
+	    line-height: 25px;
+    	font-size: 25px;
+    	height: 25px;
+	}
+	.flex-direction-nav .flex-next {
+    	right: 10px;
+	}
+	.flex-direction-nav .flex-prev {
+    	left: 10px;
+	}
+	/*================= HAMBURGER MENU STYLE ==================*/
+	.burger {
+		width: 50px;
+		height: 50px;
+		position: fixed;
+		top: 8px;
+		right: 5px;
+		z-index: 10;
+		background: #2b0504;
+	}
+	.burger span {
+		position: relative;
+		margin-top: 9px;
+		margin-bottom: 9px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -15px;
+		margin-top: -1.5px;
+	}
+	.burger span, .burger span::before, .burger span::after {
+		display: block;
+		width: 30px;
+		height: 3px;
+		background-color: #fff;
+		outline: 1px solid transparent;
+		-webkit-transition-property: background-color, -webkit-transform;
+		-moz-transition-property: background-color, -moz-transform;
+		-o-transition-property: background-color, -o-transform;
+		transition-property: background-color, transform;
+		-webkit-transition-duration: 0.3s;
+		-moz-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+	}
+	.burger span::before, .burger span::after {
+		position: absolute;
+		content: "";
+	}
+	.burger span::before {
+		top: -9px;
+	}
+	.burger span::after {
+		top: 9px;
+	}
+	.burger.clicked span {
+		background-color: transparent;
+	}
+	.burger.clicked span::before {
+		-webkit-transform: translateY(9px) rotate(45deg);
+		-moz-transform: translateY(9px) rotate(45deg);
+		-ms-transform: translateY(9px) rotate(45deg);
+		-o-transform: translateY(9px) rotate(45deg);
+		transform: translateY(9px) rotate(45deg);
+	}
+	.burger.clicked span::after {
+		-webkit-transform: translateY(-9px) rotate(-45deg);
+		-moz-transform: translateY(-9px) rotate(-45deg);
+		-ms-transform: translateY(-9px) rotate(-45deg);
+		-o-transform: translateY(-9px) rotate(-45deg);
+		transform: translateY(-9px) rotate(-45deg);
+	}
+	.burger.clicked span:before, .burger.clicked span:after {
+		background-color: #ffffff;
+	}
+	.burger:hover {
+		cursor: pointer;
+	}
+/*==================== END HAMBURGER MENU =====================*/
+/*================== ADDING STYLE CONTENT SLIDER HAMBURGER =====================*/
+	.mainmenu{
+		padding: 50px 0;
+		display: block;
+	    position: fixed;
+	    z-index: 9;
+	    top: 0;
+	    right: 0;
+	    height: 100%;
+	    max-width: 515px;
+	    width: 100%;
+	    overflow-y: auto;
+	    -webkit-transform: translateX(100%);
+	    -moz-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	    -o-transform: translateX(100%);
+	    transform: translateX(100%);
+	    -webkit-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	    -moz-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	    -o-transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	    transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	    background-color: rgba(43, 5, 4, 0.9);
+	}
+	.mainmenu.show{
+	  	-webkit-transform: translateX(0px);
+		-moz-transform: translateX(0px);
+		-ms-transform: translateX(0px);
+		-o-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	.mainmenu a{
+		display: block;
+		text-align: center;
+		padding: 20px 0;
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 20px;
+	}
+	/*==================== END STYLING SLIDER HAMBURGER ===========================*/
+	.container{
+		padding: 0 15px;
+	}
+	#aboutUs-FJ, #produk-kami-FJ, #event-FJ, #keanggotaan-FJ{
+		padding: 15px 0;
+	}
+	#homepage{
+		overflow: hidden;
+	}
+	.contentLogo{
+		left: 50%;
+	}
+	.hastag{
+		font-size: 6vw;
+	}
+	.titleContent {
+    	margin-top: 20px;
+	}
+	.titleContent p{
+		font-size: 2.5vw;
+		text-align: center;
+	}
+	.he350{
+		height: auto;
+		max-height: 100%;
+	}
+	.boxing--img{
+	    height: 280px;
+    	margin: 10px 0;
+	}
+	.three, .four{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.title>h1{
+		font-size: 6vw;
+	}
+	.topFlex {
+    	margin-bottom: 15px;
+	}
+	.title-desc{
+		display: none;
+	}
+	.logo {
+    	max-width: 12vw;
+	}
+	#events, #faq{
+		background-size: auto;
+	}
+	.title--center{
+		margin: auto auto 30px;
+	}
+	.btnCont span{
+		font-size: 25px;
+		margin: 0;
+	}
+	.wrapper button#btn-mbl{
+		width: 10%;
+	}
+	.dropUp-content{
+		width: 50%;
+	}
+	.onRight{
+		transform: translate(50%);
+    	bottom: 10px;
+	}
+	#footer{
+	    left: 15px;
+	}
+	.socmed a{
+		font-size: 12px;
+	}
+	.pad100{
+		padding-top: 100px;
+	}
+	.contentEvent {
+    	padding: 30px 0;
+	}
+	.rowEvent {
+    	margin-bottom: 10px;
+	}
+	.boxEvent--img .bgcover, .bgcover{
+		background-size: cover;
+	}
+	.meta-title{
+		font-size: 18px;
+	}
+	.dropContent>h2{
+		font-size: 3.4vw;
+	}
+	.getInForm label, .btn-trans{
+		font-size: 1.7vw;
+	}
+	#contact .getInForm input[type=text]::placeholder, #contact .getInForm select, #contact .getInForm textarea::placeholder{
+		font-size: 14px;
+		overflow: hidden;
+    	color: #5a1210;
+	}
+	#contact .getInForm input[type=text]{
+		color: #5a1210;
+	}
+	.getInForm{
+		border-bottom: solid 1px #5a1210;
+	}
+	.mainmenu {
+		flex-direction: column;
+	}
+	.mainmenu li:last-child{
+		width: 80%;
+		justify-content: center;
+	}
+	.lang a{
+		padding: 0 20px;
+	}
+	.lang a:last-child{
+	    font-size: 4.3vw;
+	}
+	.langFlag img {
+    	vertical-align: middle;
+	}
+	#aboutUs-FJ .container{
+		padding: 0 15%;
+	}
+	.wrapping--content-prod{
+	    flex-direction: column;
+    	text-align: center;
+	}
+	.w35{
+		width: 100%;
+	}
+	.w30 {
+    	width: 35%;
+	}
+	.bottleProduct {
+		margin-top: 40px;
+    	margin-bottom: 0;
+	}
+	.inside--text p{
+		font-size: 2vw;
+	}
+	.yellow-txt{
+		font-size: 3.8vw;
+	}
+	.center--big{
+	    padding: 20px 0;
+	}
+	.prodPopup{
+	    bottom: -70px;
+	    width: 30%;
+	}
+	.prodPopup a, .desc--prod{
+		font-size: 16px;
+	}
+	.mainmenu .dropdown-content{
+		left: 20%;
+	    width: 40vw;
+	}
+	.mainmenu .dropdown-content a{
+	    padding: 15px 0;
+	}
+	.mainmenu .drops{
+		display: block;
+		width: 100%;
+	}
+	.wrap--navTab .tabs li{
+		font-size: 2vw;
+	}
+	#event-FJ .boxing--img{
+		margin-top: 0;
+	}
+	#event-FJ .yellow-txt{
+		font-size: 1.8vw;
+	}
+	.viewmore a{
+		font-size: 3vw;
+	}
+	#anggota input[type=text], #anggota input[type=text]::placeholder{
+		font-size: 12px;
+	}
+	.inner--contentForm button.yel{
+		font-size: 1.8vw;
+		margin: 0;
+	}
+	.box--red{
+		max-width: 100%;
+	}
+	#event-FJ .wrap-warisanContent .row.mbflx{
+		display: flex;
+	}
+	#event-FJ .wrap-warisanContent .row{
+		display: block;
+	}
+	#event-FJ .wrap-warisanContent .col-md-5,
+	#event-FJ .wrap-warisanContent .col-md-7{
+		max-width: 100%;
+	}
+	.max500{
+		max-height: 100%;
+	}
+	.getInForm {
+	    margin-bottom: 2rem;
+	}
+	select.form-control:not([size]):not([multiple]){
+		height: auto;
+	}
+	#selayang .col-md-3, #selayang .col-md-6{
+	    flex: 100%;
+    	width: 100%;
+    	display: block;
+    	max-width: 100%;
+	}
+	#selayang .vdbox{
+		max-width: 55%;
+		margin: 15px auto;
+	}
+	#selayang .center--big h1{
+		font-size: 30px;
+	}
+	.pr-rightContent{
+		text-align: center;
+	}
+	#sejarah--ot .col-md-6{
+		float: left;
+	}
+	.sejarah--content{
+		padding: 0 30px;
+	}
+	.onRight{
+		position: fixed;
+	}
+	.wrapping--nav-- ..nav--{
+		margin-top: 0;
+	}
+	.Warisan ul.goright, .wrap--navTab ul.goright{
+		margin: auto;
+	}
+	.single-section #warisan--ot .wrapFlexcol{
+		display: block;
+	}
+	#warisan--ot{
+		padding-top: 90px;
+	}
+	.single-section #warisan--ot .he400{
+		max-height: 100%;
+	}
+	.single-section #warisan--ot .slide--warisanContent .col-md-3,
+	.single-section #warisan--ot .slide--warisanContent .col-md-6,
+	.wrap-warisanContent .slide--penghargaan .col-md-3,
+	.wrap-warisanContent .slide--penghargaan .col-md-5,
+	.wrap-warisanContent .slide--penghargaan .col-md-4,
+	#warisan--ot #tab-3 .col-md-5,
+	#warisan--ot #tab-3 .col-md-7{
+	    flex: 100%;
+    	display: block;
+    	max-width: 100%;
+	}
+	.navTab--top {
+    	margin-bottom: 30px;
+	}
+	.single-section #warisan--ot .slide--warisanContent .yellow-txt {
+    	font-size: 30px;
+	}
+	.single-section #warisan--ot .slide--warisanContent .center--big h1{
+	    font-size: 25px;
+	}
+	.single-section #warisan--ot .slide--warisanContent .vd-content{
+		max-width: 60%;
+		margin: 20px auto;
+	}
+	.thumb--img{
+		max-width: 70px;
+	}
+	.tab-content.current .navTitle{
+		display: none;
+	}
+	.frame{
+		margin: auto;
+	}
+	.slide--penghargaan .sejarah--content{
+		text-align: center;
+		margin: 20px 0; 
+	}
+	.slide--penghargaan .thisImg.bgcover{
+		background-position: center top;
+	}
+	.slide--penghargaan .min120 {
+    	height: 150px;
+	}
+	.slide--penghargaan .col-md-6 .min250{
+		height: auto;
+		max-height: 100%;
+	}
+	.strokeOT>img {
+    	width: 60em;
+	}
+	.title--sub{
+		margin-top: 10px;
+	}
+	.title--sub h1{
+		font-size: 22px;
+	}
+	.listone .getInForm{
+		border-bottom: none;
+	}
+	.formSub .wrap--ask label, .formSub .wrap--ask p{
+		font-size: 11px;
+	}
+	.blocking{
+	    max-width: 85%;
+	}
+	.screenLogo img{
+		width: 100%;
+	}
+	.screenTitle h1{
+		font-size: 28px;
+	}
+	.screenDesc{
+		font-size: 12px;
+	}
+	.screenForm .scrDate select.form-control:not([size]):not([multiple]){
+		height: 50px;
+		font-size: 12px;
+		color: #3f0604;
+	}
+	.screenBot p{
+		font-size: 11px;
+	}
+	.bg-home, .bg-produk {
+    	background-image: url(../images/background-OT.jpg);
+	}
+	.search--field.out {
+    	right: 10%;
+	}
+	.search--field{
+	    width: 80%;
+	    max-width: 100%;
+	    bottom: 20%;
+	}
+	#event-FJ .wrap--tabs, #keanggotaan-FJ .row.max500, #warisan--ot .wrap--tabs, #allEvent, #aboutUs-FJ .row{
+	    padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+  
+}
+
+@media screen and (max-width: 732px) {
+
+}
+
+@media screen and (max-width: 667px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  
+}
+
+@media screen and (max-width: 568px) {
+  
+}
+
+@media screen and (max-width: 414px) {
+	.slider-img video {
+    	left: -10%!important;
+	}
+	.mainmenu .dropdown-content{
+	    width: 60vw;
+	}
+	.mainmenu a{
+		font-size: 17px;
+	}
+	.wrapper button#btn-mbl {
+    	width: 15%;
+	}
+	.wrapping--content-prod{
+		padding: 0;
+	}
+	.inside--text{
+		padding: 0 30px;
+	}
+	.w30{
+		width: 30%;
+	}
+	.prodPopup a{
+		font-size: 14px;
+	}
+	.inside--text p{
+		margin-bottom: 0;
+	}
+	.inside--text p {
+    	font-size: 2.2vw;
+	}
+	.bottle--nav img{
+		max-width: 60%;
+	}
+	.vertical-bottle{
+	    margin: -50px -30px 0 0;
+	}
+	.cstmTop {
+    	right: 5px;
+    	top: 34%;
+	}
+	.cstmBot {
+    	right: 5px;
+    	bottom: 34%;
+	}
+	.yellow-txt {
+    	font-size: 5.8vw;
+	}
+	.center--big {
+    	padding: 10px 0;
+	}
+	.center--big h1{
+	    font-size: 3.8vw;
+	}
+	.dropUp-content {
+    	width: 80%;
+	}
+	#contact .getInForm input[type=text], #contact .getInForm input[type=text]::placeholder, 
+	#contact .getInForm textarea[type=text], #contact .getInForm textarea[type=text]::placeholder, #contact .getInForm select{
+		font-size: 11px;
+		color: #2b0504;
+	}
+	.btn-trans, .getInForm label {
+    	font-size: 2.7vw;
+	}
+	.dropContent>h2{
+	    margin-bottom: 15px;
+        font-size: 4.4vw;
+	}
+	.getInForm .error{
+		margin-top: 0;
+		font-size: 1.7vw;
+	}	
+	.btn-trans{
+		margin: 0;
+	}
+	.inner--contentForm button.yel {
+    	font-size: 3.5vw;
+    	margin: 0;
+    	padding: 0;
+	}
+	.title--center{
+		max-width: 50%;
+	}
+	.onRight{
+	    bottom: 16px;
+	    right: 40%;
+	}
+	.list--faq{
+		max-width: 90%;
+	}
+	.ask--{
+		font-size: 18px;
+	}
+	.sublist li:first-child{
+		font-size: 16px;
+	}
+	.arrowBack span:first-child{
+		font-size: 14px;
+	}
+	.textEvent .yellow-txt{
+		font-size: 14px;
+	}
+	#selayang .center--big h1 {
+    	font-size: 28px;
+	}
+	#sejarah--ot .wrapFlexcol{
+		padding-top: 70px;
+		display: block;
+	}
+	.slide--contentSejarah .vdbox{
+		margin: auto;
+	    max-height: 180px;
+    	overflow: hidden;
+	}
+	.nav--{
+		margin-top: 0;
+	}
+	.sejarah--content p{
+		margin-bottom: 0;
+	}
+	.sejarah--content{
+		margin-top: 10px;
+	}
+	.title{
+		padding-left: 30px;
+	}
+	.vdbox{
+		max-width: 84%;
+	}
+	.years h1{
+		font-size: 25vw;
+	}
+	.wrapping--nav--{
+		margin-bottom: 50px;
+	}
+	.wrap--navTab .tabs li.active-show-li:before{
+		display: none;
+	}
+	.wrap--navTab .tabs li.active-show-li, .wrap--navTab .tabs li{
+		text-align: center;
+	}
+	.single-section #warisan--ot .slide--warisanContent .vd-content{
+		max-width: 80%;
+	}
+	.single-section #warisan--ot .slide--warisanContent .yellow-txt{
+		font-size: 24px;
+	}
+	.single-section #warisan--ot .slide--warisanContent .center--big h1 {
+    	font-size: 20px;
+	}
+	.slide--warisanContent .thisImg.min250{
+		max-height: 180px;
+	}
+	.thumb--img {
+    	max-width: 55px;
+	}
+	.nav--penghargaan, .nav--warisanContent, .img-abslt, .box--red{
+		margin-bottom: 50px;
+	}
+	.strokeOT>img {
+    	width: 33em;
+	}
+	.strokeOT{
+	    right: -8%;
+	}
+	.pakJenggot p{
+	    font-size: 12px;
+	}
+	.wrap--navTab .tabs li:last-child {
+    	padding-right: 15px;
+	}
+	.wrap--contentTabs .tab-content.current ul.tabs {
+		border-bottom: solid 1px #eee145;
+	}
+	.title--sub h1 {
+    	font-size: 16px;
+	}
+	.submission{
+		max-width: 90%;
+	}
+	.screenTop:before, .screenBot:after, .screenContent:after, .screenContent:before{
+		display: none;
+	}
+	.screenTop>h1{
+		font-size: 20px;
+	}
+	.screenTop{
+		padding-top: 20px;
+	}
+	.screenLogo {
+    	max-width: 40%;
+	}
+	.screenContent {
+    	padding: 30px;
+	}
+	.screenTitle h1 {
+    	font-size: 24px;
+	}
+	.screenDesc {
+    	max-width: 100%;
+	}
+	.search--field {
+    	bottom: 15%;
+	}
+
+}
+
+@media screen and (max-width: 411px) {
+	#aboutUs-FJ .container{
+		padding: 0 15px;
+	}
+	.wrap--navTab .tabs li {
+    	font-size: 10px;
+	}
+	.list--faq{
+		max-width: 90%;
+	}
+	.ask--{
+		font-size: 18px;
+	}
+	.sublist li:first-child{
+		font-size: 16px;
+	}
+	.viewmore a {
+    	font-size: 25px;
+    	margin-top: 15px;
+	}
+	.title--center{
+		max-width: 50%;
+	}
+	.onRight{
+	    bottom: 16px;
+	    right: 40%;
+	}
+	.arrowBack span:first-child{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-device-width: 393px) {
+  	.slider-img video {
+    	left: -10%!important;
+	}
+	#aboutUs-FJ .container {
+    	padding: 0 15px;
+	}	
+
+	.wrapper button#btn-mbl {
+    	width: 15%;
+	}
+	.socmed a {
+    	font-size: 10px;
+	    padding-right: 10px;
+	}
+	.eng:after{
+		right: 0;
+		height: 14px;
+		top: 8px;
+	}
+	.socmed a:after{
+		right: 0;
+		top: -2px;
+	}
+	.tab-content.current .wrap--navTab .tabs li.current:before, 
+	.wrap--navTab .tabs li.active-show-li:before{
+		top: 49%;
+	}
+	.logo {
+    	max-width: 16vw;
+	}
+	.logo {
+    	max-width: 16vw;
+	}
+	.wrapping--content-prod{
+		padding: 0;
+	}
+	.yellow-txt {
+    	font-size: 4.8vw;
+	}
+	.center--big h1{
+	    font-size: 3.8vw;
+	}
+	.inside--text p {
+    	font-size: 2.3vw;
+	}
+	.prodPopup{
+	    bottom: -90px;
+	}
+	.prodPopup a{
+		font-size: 11px;
+	}
+	.bottle--nav img{
+		max-width: 60%;
+	}
+	.vertical-bottle{
+		margin: -50px -30px 0 0;
+	}
+	.cstmTop {
+    	right: 5px;
+		top: 34%;
+	}
+	.cstmBot {
+    	right: 5px;
+		bottom: 34%;
+	}
+	.inside--text{
+		padding: 0 30px;
+	}
+	.dropUp-content {
+    	width: 100%;
+	}
+	#contact .getInForm input[type=text], #contact .getInForm input[type=text]:placeholder{
+		font-size: 10px;
+	}
+	.btn-trans, .getInForm label {
+    	font-size: 3vw;
+	}
+	.wrap--navTab .tabs li {
+    	font-size: 2.6vw;
+	}
+	.viewmore a {
+    	font-size: 5vw;
+    	margin-top: 15px;
+	}
+	#keanggotaan-FJ .max500{
+	    max-height: 100%;
+	}
+	.tittle-y{
+	    font-size: 5.2vw;
+	}
+	.inner--contentForm button.yel{
+	    font-size: 3.8vw;
+	}
+	.mainmenu .dropdown-content {
+    	left: 15%;
+    	width: 70vw;
+	}
+	.mainmenu a{
+		font-size: 17px;
+	}
+	.lang a:last-child {
+    	font-size: 5.3vw;
+	}
+}
+
+@media screen and (max-device-width: 375px) {
+	.slider-img video {
+    	left: -15%!important;
+	}
+	.socmed a {
+    	font-size: 10px;
+	    padding-right: 10px;
+	}
+	.socmed a:after{
+		right: 0;
+		height: 10px;
+		top: -1px;
+	}
+	.eng:after {
+    	height: 15px;
+    	top: 8px;
+	}
+	.logo {
+    	max-width: 16vw;
+	}
+	.logo {
+    	max-width: 16vw;
+	}
+	.wrapping--content-prod{
+		padding: 0;
+	}
+	.yellow-txt {
+    	font-size: 4.8vw;
+	}
+	.center--big h1{
+	    font-size: 3.8vw;
+	}
+	.inside--text p {
+    	font-size: 2.3vw;
+	}
+	.prodPopup{
+	    bottom: -90px;
+	}
+	.prodPopup a{
+		font-size: 11px;
+	}
+	.bottle--nav img{
+		max-width: 60%;
+	}
+	.vertical-bottle{
+		margin: -50px -30px 0 0;
+	}
+	.cstmTop {
+    	right: 5px;
+		top: 33%;
+	}
+	.cstmBot {
+    	right: 5px;
+		bottom: 33%;
+	}
+	.inside--text{
+		padding: 0 30px;
+	}
+	.dropUp-content {
+    	width: 100%;
+	}
+	#contact .getInForm input[type=text], #contact .getInForm input[type=text]:placeholder{
+		font-size: 10px;
+	}
+	.btn-trans, .getInForm label {
+    	font-size: 3vw;
+	}
+	.wrap--navTab .tabs li {
+    	font-size: 2.6vw;
+	}
+	.viewmore a {
+    	font-size: 5vw;
+    	margin-top: 15px;
+	}
+	#keanggotaan-FJ .max500{
+	    max-height: 100%;
+	}
+	.tittle-y{
+	    font-size: 5.2vw;
+	}
+	.inner--contentForm button.yel{
+	    font-size: 3.8vw;
+	}
+	#selayang .center--big h1 {
+    	font-size: 26px;
+	}
+}
+
+/* iPhone X --- Potrait */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait){
+	#aboutUs-FJ .container {
+    	padding: 0 15px;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	.cstmTop{
+	    top: 30%;
+	}
+	.cstmBot {
+    	bottom: 30%;
+	}
+	.screenTop>h1 {
+    	font-size: 15px;
+	}
+	.ortu img{
+		max-width: 50%;
+	}
+	.screenContent {
+    	padding: 15px;
+	}
+	.screenTitle h1 {
+	    font-size: 16px;
+	}
+	.screenDesc, .screenBot p {
+	    font-size: 10px;
+	}
+	.btnScreen{
+		font-size: 14px;
+	}
+	.screenBot, .screenTop{
+	    margin: 15px 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cstmTop {
+    	top: 30%;
+	}
+	.cstmBot {
+    	bottom: 30%;
+	}
+	.prodPopup a {
+    	font-size: 10px;
+	}
+	.meta-title {
+    	font-size: 16px;
+	}
+	
+}
+/*==========================================================================*/
+/*============================= APPLE DEVICES ==============================*/
+/*==========================================================================*/
+ 
+/*========iPad Media Queries (All generations - including iPad mini)========*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+}
+/*========iPad Media Queries (All generations - including iPad mini)========*/
+
+
+/*====================iPad 3 & 4 Media Queries (RETINA)=====================*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 2) {  
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+/*====================iPad 3 & 4 Media Queries (RETINA)=====================*/
+
+
+/*===============iPad 1 & 2 Media Queries (LOWER RESOLUTION)=================*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+
+}
+
+
+/*iPhone X 10 Media Queries*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+	.slider-img video {
+    	left: -15%!important;
+	}
+	#aboutUs-FJ .container {
+    	padding: 0 10%;
+	}
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+
+}
+
+
+/*iPhone 6, 7, & 8 Media Queries*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+
+}
+
+
+/*iPhone 6, 7, & 8 PLUS Media Queries*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+
+}
+
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : landscape) { 
+
+}
+
+
+/*iPhone 5 & 5S Media Queries*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+
+}
+
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (   min--moz-device-pixel-ratio: 1.5),
+    only screen and (     -o-min-device-pixel-ratio: 3/2),
+    only screen and (        min-device-pixel-ratio: 1.5),
+    only screen and (min-resolution: 192dpi)
+{
+	#btnCont .getInForm input:focus, #btnCont .getInForm input,
+	#btnCont .getInForm select, #btnCont .getInForm textarea,
+	#btnCont .getInForm input::placeholder{
+		font-size: 2.4em.
+	}
+
+	#anggota input[type=text], #anggota input[type=number], #anggota input[type=password], #anggota textarea, #anggota textarea.form-control
+	#anggota input:placeholder, #anggota textarea:placeholder, #anggota textarea:focus, #anggota input:focus{
+		font-size: 2.4em.
+	}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
+
+  /* Large screen, retina, stuff to override above media query */
+
+}
